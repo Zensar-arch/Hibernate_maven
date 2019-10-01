@@ -27,6 +27,7 @@ public class HibernateMain
     	p.setBrand("Koryo");
     	p.setPrice(899);
     	s1.save(p);
+    	System.out.println("product is saved");
     	
     	
     	t.commit();
